@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+}
+
+label {
+  display: block;
+  padding-bottom: 1rem;
+}
+
+#output {
+  padding: 1rem;
+}
