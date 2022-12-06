@@ -18,7 +18,7 @@ function calculateProfitOrLoss() {
   } else if (currentPriceValue < initialPriceValue) {
     var loss = (initialPriceValue - currentPriceValue) * stocksQuantityValue;
     var lossPercentage = (loss / initialPriceValue) * 100;
-    message = `Hey the loss is ${loss} and the percentage is ${lossPercentage}$`;
+    message = `Hey the loss is ${loss} and the percentage is ${lossPercentage}%`;
   } else {
     message = "No pain no gain and no gain no pain";
   }
