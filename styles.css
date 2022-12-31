@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  background-color:lightsalmon;
+  font-family: 'Kaushan Script', cursive;
 }
 
 label {
@@ -9,4 +11,16 @@ label {
 
 #output {
   padding: 1rem;
+}
+
+input, button {
+  font-family: 'Kaushan Script', cursive;
+  border: 2px solid brown;
+  border-radius: 5px;
+  height: 2rem;
+  width: 15rem;
+}
+
+button {
+  width: 5rem;
 }
